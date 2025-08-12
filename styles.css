@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.nav-bar, .footer {
+  background-color:aquamarine;
+  padding: 1.5rem;
+  
+}
+.nav-bar{
+    display: flex;
+    gap: 15rem;
+
+}
+.link-list{
+    display: flex;
+    gap:2rem
+
+}
