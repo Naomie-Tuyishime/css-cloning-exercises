@@ -65,6 +65,11 @@ gap:15rem
   padding: 0;
   margin: 0;
 }
+.intire{
+  margin-bottom: 20rem;
+  padding-left: 15rem;
+  color: white;
+}
 
 .accomodation-info li {
   display: flex;
@@ -180,4 +185,45 @@ border-radius: 1px;
   list-style: none;
   padding: 0;
   margin: 0;
+  color:blue
+}
+li{
+  list-style: none;
+}
+.middle-section{
+  text-align: left;
+}
+.main-last{
+  background-image:url(732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpeg) ;
+   background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  border-radius: 20px;
+ 
+ 
+  padding: 2rem;
+}
+.main-last-section{
+  background-color: white;
+  color: black;
+  border-radius: 20px; 
+  height: 500px;
+  width: 400px;
+  padding: 20px;
+  font-size: ;
+ 
+
+}
+.main-last-section p{
+  
+}
+.find-accomodation span{
+  background-color: blue;
+  gap: 1rem;
+}
+.img-message{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
