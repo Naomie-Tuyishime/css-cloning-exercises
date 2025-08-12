@@ -102,3 +102,72 @@ gap:15rem
     color: white;
  
 }
+.img1{
+  width:300px;
+  border-radius: 10px;
+}
+.find-accomodation{
+    display: flex;
+
+    justify-content:space-around;
+    padding-left: 20px;
+    
+    
+}
+.acco-pic{
+display: flex;
+justify-content: space-between;
+}
+.home{
+  background-image: url(051_w4032h3046x0y2-5bca3369.jpg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 50vh;
+min-width: 50vh;
+width: 50px;
+}
+.apartment{
+  background-image: url(051_w4032h3046x0y2-5bca3369.jpg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 50vh;
+min-width: 50vh;
+width: 50px;
+
+}
+.cottage{
+  background-image: url(051_w4032h3046x0y2-5bca3369.jpg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 50vh;
+min-width: 50vh;
+width: 50px;
+padding-bottom: 20px;
+
+}
+.house{
+
+  background-image: url(051_w4032h3046x0y2-5bca3369.jpg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 50vh;
+min-width: 50vh;
+width: 50px;
+}
+.cottage{
+  background-image: url(051_w4032h3046x0y2-5bca3369.jpg.jpeg);  
+background-repeat: no-repeat;
+background-size: cover;   
+min-height: 50vh;
+min-width: 50vh;
+border-radius: 10px;}
+.trip-section{
+  display:flex;
+gap:1.5rem;
+border-radius: 1px;
+ 
+}
+.img-trp{
+  width:200px;
+  height:210px;
+}
