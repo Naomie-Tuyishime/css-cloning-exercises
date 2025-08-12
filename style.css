@@ -1,0 +1,104 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.nav-bar,.footer{
+    background-color:rgb(43, 226, 226);
+    padding: 1rem;
+}
+.footer{
+    border: solid;
+}
+.info-link{
+    display: flex;
+   gap:1.5rem;
+   list-style: none;
+}
+.nav-bar{
+    
+display: flex;
+justify-content: space-between;
+gap:15rem
+}
+.accomodation-info{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+    
+
+}
+.hello-section {
+  background-image: url(../images/062_VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hello-elements {
+  background-color: rgba(255, 255, 255, 0.85); 
+  color: black;
+  
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.hello-elements h2 {
+  margin-bottom: 1.5rem;
+
+}
+
+.accomodation-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.accomodation-info li {
+  display: flex;
+  min-width: 150px;
+  flex-direction: column;
+}
+
+.accomodation-info input {
+  
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 2px;
+
+}
+
+.seek-btn {
+  background-color: #00008B;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.top-section-gallery h3{
+    background-color:#00008B;
+ margin-left: 30px;
+ margin-right:30px;
+ height: 40px;
+
+
+}
+.accomodation{
+    color: white;
+ 
+}
